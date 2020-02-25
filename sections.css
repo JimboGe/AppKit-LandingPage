@@ -1,12 +1,97 @@
-.section-1{
+.section-1 {
+    color:white;
     
 }
-.section-1 img{
+
+.section-1 .carousel{
+    width:100%;
+    height: 560px;
+    overflow: hidden;
+}
+.section-1 .carousel .slide{
+    width:100%;
+    height: 100%;
+}
+.sectin-1 .carousel .slide-1,
+.sectin-1 .carousel .slide-2,
+.sectin-1 .carousel .slide-3{
+    position: absolute;
+    top:0;
+}
+.section-1 .carousel .slide img{
     position: absolute;
     left:0;
     right: 0;
     top:0;
     width:100%;
-   
     
+}
+
+
+.section-1 .carousel .figure{
+    
+    width:100%;
+    z-index: 1;
+    text-align: right;
+   
+}
+.section-1 .carousel .figure img{
+    position: absolute;
+    z-index: 3;
+    width:570px;
+    top:141px;
+    right:248px;
+}
+
+
+.section-1 .carousel .description{
+    position: relative;
+    width: 41%;
+    top:66px;
+}
+.section-1 .carousel .description h2{
+    font-size:30px;
+    line-height: 40px;
+    margin:0;
+    font-weight: 700;
+}
+.section-1 .carousel .description p{
+    line-height: 27px;
+    font-size:18px;
+    margin-bottom:40px;
+}
+
+.section-1 .carousel .dots{
+    position: relative;
+    top:0;
+}
+.section-1 .carousel .dots{
+    position: relative;
+    top:-100px;
+    text-align: center;
+    left:0;
+    z-index: 1;
+}
+.section-1 .carousel .dots ul{
+    position: relative;
+    padding:0;
+    list-style: none;
+    z-index: 15;
+}
+.section-1 .carousel .dots li{
+   display:inline-block;
+   position: relative;
+   background: rgba(255, 255, 255, 0.4);
+   border:none;
+   width: 11px;
+   height: 11px;
+   margin:0;
+   margin-right: 5px;
+   border-radius: 50%;
+   cursor: pointer;
+   z-index: 1;
+}
+
+.section-1 .carousel .dots ul .active {
+    background: #40babd;
 }

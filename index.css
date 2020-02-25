@@ -7,3 +7,31 @@ body, html{
    max-width:67.9%;
    margin:0 auto;
 }
+.slide-btn {
+    background: #40babd;
+    border:none;
+    padding:15px 33.6px;
+    color:white;
+    font-size:16px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+
+    transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+
+    transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+
+    transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    -webkit-transition-property: background;
+}
+.slide-btn:hover{
+    background: #3aa7aa;
+}
